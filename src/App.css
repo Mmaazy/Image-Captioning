@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  color: #c4b6b6;
+}
+
+.App .figure-caption {
+  font-size: 30px;
+  color: #eeeeee;
+}
+
+.App .figure {
+  width: 500px;
+  height: 450px;
+}
+
+.App .figure-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* .upload-file {
+  display: flex;
+  justify-content: center;
+}
+
+#formFile {
+  background-color: #ffd369;
+  border-color: #ffd369;
+  color: #222831;
+  padding: 12px;
+  border-radius: 9px;
+} */
+
+input#file-input {
+  display: none;
+}
+
+input {
+  background-color: #ffd369;
+  border-color: #ffd369;
+  color: #222831;
+  padding: 12px;
+  border-radius: 9px;
+}
+
+input#file-input + label {
+  background-color: #ffd369;
+  border-color: #ffd369;
+  color: #222831;
+  padding: 10px;
+  border-radius: 9px;
+  width: 90%;
+}
+
+input#file-input + label:hover {
+  background-color: #e1e099;
+  border-color: #e1e099;
+  box-shadow: #e1e099;
+  color: #222831;
+  cursor: pointer;
+}
+
+.submit-btn {
+  background-color: #ffd369;
+  border-color: #ffd369;
+  color: #222831;
+  padding: 8.25px;
+  border-radius: 9px;
+  width: 90%;
+}
+
+.submit-btn:disabled {
+  pointer-events: none;
+  opacity: 0.65;
+}
+
+.submit-btn:hover {
+  background-color: #e1e099;
+  border-color: #e1e099;
+  box-shadow: #e1e099;
+  color: #222831;
+  cursor: pointer;
+}
